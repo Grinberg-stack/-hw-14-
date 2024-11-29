@@ -1,0 +1,8 @@
+- name: Install zip and vim
+  apt:
+    name:
+      - zip
+      - vim
+    state: present
+    update_cache: yes
+
