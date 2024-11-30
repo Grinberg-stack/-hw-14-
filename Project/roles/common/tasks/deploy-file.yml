@@ -1,0 +1,4 @@
+- name: Deploy "Hello world!" file to /tmp/test1
+  copy:
+    content: "Hello world!\n"
+    dest: /tmp/test1

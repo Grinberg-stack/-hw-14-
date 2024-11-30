@@ -1,2 +1,5 @@
 - name: Include install-vim-zip tasks
   import_tasks: install-vim-zip.yml
+
+- name: Include deploy file task
+  import_tasks: deploy-file.yml
